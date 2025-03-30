@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Doto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>BasketBall Scoreboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div>
-            <h3>HOME</h3>
-            
+      <div class="home">
+        <h3>HOME</h3>
+        <div class="score">
+          <p>0</p>
         </div>
-        <div>
-            <h3>GUEST</h3>
+        <div class="buttonContainer">
+          <button id="homeOne" class="button">+1</button>
+          <button id="homeTwo" class="button">+2</button>
+          <button id="homeThree" class="button">+3</button>
         </div>
+      </div>
+      <div class="guest">
+        <h3>GUEST</h3>
+        <div class="score">
+          <p>0</p>
+        </div>
+        <div class="buttonContainer">
+          <button id="GuestOne" class="button">+1</button>
+          <button id="GuestTwo" class="button">+2</button>
+          <button id="GuestThree" class="button">+3</button>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
