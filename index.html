@@ -14,26 +14,26 @@
   </head>
   <body>
     <div class="container">
-      <div class="home">
+      <div class="home tableScore">
         <h3>HOME</h3>
         <div class="score">
-          <p>0</p>
+          <p id="scoreScreenOne">0</p>
         </div>
         <div class="buttonContainer">
-          <button id="homeOne" class="button">+1</button>
-          <button id="homeTwo" class="button">+2</button>
-          <button id="homeThree" class="button">+3</button>
+          <button onclick="addScoreOneHome()" id="homeOne" class="button">+1</button>
+          <button  onclick="addScoreTwoHome()" id="homeTwo" class="button">+2</button>
+          <button  onclick="addScoreThreeHome()" id="homeThree" class="button">+3</button>
         </div>
       </div>
       <div class="guest">
         <h3>GUEST</h3>
-        <div class="score">
-          <p>0</p>
+        <div class="score  tableScore">
+          <p id="scoreScreenTwo">0</p>
         </div>
         <div class="buttonContainer">
-          <button id="GuestOne" class="button">+1</button>
-          <button id="GuestTwo" class="button">+2</button>
-          <button id="GuestThree" class="button">+3</button>
+          <button onclick="addScoreOneGuest()" id="GuestOne" class="button">+1</button>
+          <button onclick="addScoreTwoGuest()" id="GuestTwo" class="button">+2</button>
+          <button onclick="addScoreThreeGuest()" id="GuestThree" class="button">+3</button>
         </div>
       </div>
     </div>
